@@ -13,7 +13,7 @@ import com.example.demo.service.JwtService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-
+@CrossOrigin(origins = "https://moviediary-frontend.vercel.app")
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
