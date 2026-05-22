@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.CrossOrigin;
+
 
 import com.example.demo.model.User;
 import com.example.demo.repository.UserRepository;
@@ -14,7 +14,6 @@ import com.example.demo.service.JwtService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@CrossOrigin(origins = "https://moviediary-frontend.vercel.app")
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
