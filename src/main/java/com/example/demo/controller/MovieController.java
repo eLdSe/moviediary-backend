@@ -4,6 +4,8 @@ import com.example.demo.model.Movie;
 import com.example.demo.model.Movie.WatchStatus;
 import com.example.demo.model.User;
 import com.example.demo.service.MovieService;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
