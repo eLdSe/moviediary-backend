@@ -1,0 +1,16 @@
+2026-05-21 11:12:44.535226+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Значение слишком длинное для поля "POSTER CHARACTER VARYING(255)": "'data:image/webp;base64,UklGRvo6AABXRUJQVlA4IO46AACQ3wCdASoJAY0BPp1Cm0qlo6YnK5Vb... (20167)"
+Value too long for column "POSTER CHARACTER VARYING(255)": "'data:image/webp;base64,UklGRvo6AABXRUJQVlA4IO46AACQ3wCdASoJAY0BPp1Cm0qlo6YnK5Vb... (20167)"; SQL statement:
+update movie set director=?,poster=?,rating=?,status=?,title=?,release_year=? where id=? [22001-232]
+2026-05-21 11:13:01.218024+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Значение слишком длинное для поля "POSTER CHARACTER VARYING(255)": "'data:image/webp;base64,UklGRvo6AABXRUJQVlA4IO46AACQ3wCdASoJAY0BPp1Cm0qlo6YnK5Vb... (20167)"
+Value too long for column "POSTER CHARACTER VARYING(255)": "'data:image/webp;base64,UklGRvo6AABXRUJQVlA4IO46AACQ3wCdASoJAY0BPp1Cm0qlo6YnK5Vb... (20167)"; SQL statement:
+update movie set director=?,poster=?,rating=?,status=?,title=?,release_year=? where id=? [22001-232]
+2026-05-21 11:13:39.936517+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Значение слишком длинное для поля "POSTER CHARACTER VARYING(255)": "'data:image/webp;base64,UklGRvo6AABXRUJQVlA4IO46AACQ3wCdASoJAY0BPp1Cm0qlo6YnK5Vb... (20167)"
+Value too long for column "POSTER CHARACTER VARYING(255)": "'data:image/webp;base64,UklGRvo6AABXRUJQVlA4IO46AACQ3wCdASoJAY0BPp1Cm0qlo6YnK5Vb... (20167)"; SQL statement:
+update movie set director=?,poster=?,rating=?,status=?,title=?,release_year=? where id=? [22001-232]
+2026-05-21 11:14:55.116453+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Значение слишком длинное для поля "POSTER CHARACTER VARYING(255)": "'data:image/webp;base64,UklGRpwSAABXRUJQVlA4IJASAAAQYgCdASoLAYgBPp1OoE0lpCMroVHq... (6387)"
+Value too long for column "POSTER CHARACTER VARYING(255)": "'data:image/webp;base64,UklGRpwSAABXRUJQVlA4IJASAAAQYgCdASoLAYgBPp1OoE0lpCMroVHq... (6387)"; SQL statement:
+update movie set director=?,poster=?,rating=?,status=?,title=?,release_year=? where id=? [22001-232]
